@@ -1,0 +1,21 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "Container": {
+    "name": "Container",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./uploads"
+  },
+  "mysql": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "fileManager",
+    "password": "password",
+    "name": "mysql",
+    "user": "root",
+    "connector": "mysql"
+  }
+}
