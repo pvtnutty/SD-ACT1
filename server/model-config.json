@@ -40,7 +40,7 @@
     "public": true
   },
   "appUser": {
-    "dataSource": "mysql",
+    "dataSource": "db",
     "public": true
   }
 }
